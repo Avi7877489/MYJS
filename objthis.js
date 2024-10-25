@@ -1,7 +1,7 @@
 let obj ={
     firstname: 'Avijit',
     lastname: 'Ghosh',
-    fullname: function(firstname,lastname){
+    fullname: function(){
         return this.firstname + ' ' + this.lastname
     }
 
