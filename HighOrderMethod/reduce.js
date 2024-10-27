@@ -27,9 +27,9 @@ let product = [
         price : 1300 
     }
 ]
-
+let cupun = 500
 let finalPrice = product.reduce((ace,curr)=>{
     return ace + curr['price']
-},0)
+},-(cupun))
 
 console.log(finalPrice)
